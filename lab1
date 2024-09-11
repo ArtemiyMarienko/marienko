@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<head>
+<meta carset="UTF-8">
+<
+<meta name="discription" content="Персональна сторінка студента. Інформація про мене та мої хобі.">
+<meta name="keywords" content="Про себе, Хобі, Програмування, Студент">
+<meta name="viewport" content="Width=device=width, initial-scale=1.0">
+<title>MarienkoLab01-9</title>
+<style>
+body {
+background-color: #f0f8ff;
+color: #333333;
+font-family: Arial, sans-serif;
+text-align: justify;
+margin: 20px;
+}
+h1, h2 {
+color: #006400;
+}
+p {
+line-height: 1.6;
+}
+.highlight {
+font-style: italic;
+font-weight: bold;
+text-decoration: underline;
+}
+.signature {
+font-style: italic;
+}
+code {
+display: block;
+background-color: #f4f4f4;
+padding: 10px;
+border-left: 4px solid #ccc;
+white-space: pre-wrap;
+margin: 10px 0;
+}
+</style>
+</
+</head>
+<body>
+<h1>Про себе</h1>
+<p>Мене звати Артемій Марєнко. Я навчаюся в університеті, в інституті компютерних технологій та систем. І саме зараз я вивчаю програмування.</p>
+<p>Зараз я намагаюся створити сайт з інформацією про себе.Тож якщо ви читаете цей текст у браузері,<span class="highlight">мені вдалося.</span>Але це ще тільки початок мого навчання</p>
+<p>Програмування - це лише один з напрямуів які я буду вивчати але це основній предмет який допоможе мені у виборі професії та ці знання забезпечать мені високу заробітню плату </p>
+<
+<p class="signature">Студент групи 101пТК - Марєнко А.Р
+Б.ищвнЮ
