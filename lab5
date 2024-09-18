@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<head>
+<meta carset="UTF-8">
+<meta name="discription" content="Персональна сторінка студента. Інформація про мене та мої хобі.">
+<meta name="keywords" content="Про себе, Хобі, Програмування, Студент">
+<meta name="viewport" content="Width=device=width, initial-scale=1.0">
+<title>MarienkoLab01-9</title>
+<style>
+body {
+background-color: #f0f8ff;
+color: #333333;
+font-family: Arial, sans-serif;
+text-align: justify;
+}
+h1 { 
+color: #1e90ff;
+}
+d1 { 
+margin: 20px;
+}
+dt { 
+font-weight: bold;
+margin-top: 10px;
+} 
+dd {
+margin-left: 20px;
+}
+</style>
+</head>
+<body>
+<p><a href="MarienkoLab01-9.htm" target="_self">Main page</a></p>
+<h1="top">My links</h1>
+<d1>
+<dt><a href="https://www.gmail.com" target="_blank">Gmail</a></dt>
+<dd>Most popular post massenger.</dd>
+<dt><a href="https://www.google.ua" target="_blank"></a></dt>
+<dd>Most popular searching service.</dd>
+<dt><a href="https://www.youtube.com" target="_blank"></a></dt>
+<dd>Platform to watch and download wideos.</dd>
+<dt><a href="https://uk.wikipedia.com" target="_blank"></a></dt>
+<dd>Encyclopedia for all questions.</dd>
+<dt><a href="https://www.facebook.com" target="_blank"></a></dt>
+<dd>Chat, news, photo, wideos.</dd>
+<dt><a href="https://www.instagram.com" target="_blank"></a></dt>
+<dd>Publishing photo/wideos, and chating with your friends.</dd>
+</d1>
+<p><a href="#top">Top of the page</a></p>
+</body>
+</html>
