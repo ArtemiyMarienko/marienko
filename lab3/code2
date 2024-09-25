@@ -1,1 +1,18 @@
+<!doctype html>
+  <html lang="uk">
+  <head>
+<meta charset="UTF-8">
+<title>Galery of photos</title>
+</head>
+<body>
+<h1>Galery</h1>
+<img scr="photo1.jpg alt="Number 1" border="2" height="200" width="300">
+<p> About photo </p>
 
+<img scr="photo2.jpg alt="Number 1" border="2" height="200" width="300">
+<p> About photo </p>
+
+<img scr="photo3.jpg alt="Number 1" border="2" height="200" width="300">
+<p> About photo </p>
+</body>
+</html>
