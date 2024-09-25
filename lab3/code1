@@ -1,0 +1,18 @@
+<!doctype html>
+  <html lang="uk">
+  <head>
+<meta charset="UTF-8">
+<title>About my group</title>
+<style>
+body { 
+background-image: url('background.jpg');
+background-size: cover;
+font-family: Arial, sans-serif;
+} 
+</style>
+</head>
+<body>
+<h1>About my group</h1>
+<p>I don't know nothing</p>
+</body>
+</html>
