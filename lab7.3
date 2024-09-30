@@ -1,1 +1,35 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IvanennkoLab07-4</title>
+    <style>
+        body { font-family: Arial, sans-serif; margin: 20px; }
+        form { max-width: 400px; margin: auto; padding: 20px; border: 1px solid #ccc; background: #f9f9f9; }
+        label, select, input, textarea { display: block; width: 100%; margin-bottom: 10px; }
+        input[type="radio"], input[type="checkbox"] { width: auto; margin-right: 10px; }
+        button { padding: 10px; background-color: #4CAF50; color: white; border: none; cursor: pointer; }
+        button:hover { background-color: #45a049; }
+    </style>
+</head>
+<body>
 
+    <h2>Форма замовлення</h2>
+
+    <form action="#" method="post">
+        <label>Номер банківського рахунку: <input type="number" name="account-number" required></label>
+        <label>Особистий номер користувача: <input type="text" name="user-id" required></label>
+
+        <label>Виберіть товар(и):
+            <select name="products" multiple>
+                <option value="product1">Товар 1</option>
+                <option value="product2">Товар 2</option>
+                <option value="product3">Товар 3</option>
+            </select>
+        </label>
+
+        <label>Коментарі: <textarea name="comments"></textarea></label>
+
+        <label><input type="radio" name="payment" value="cash" required> Готівковий розрахунок</label>
+        <label><input type
