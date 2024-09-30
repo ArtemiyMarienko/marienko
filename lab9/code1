@@ -1,1 +1,43 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IvanennkoLab09-1</title>
+    <style>
+        .header-style1 {
+            color: blue;
+            font-family: Arial, sans-serif;
+            font-size: 24px;
+        }
 
+        .header-style2 {
+            color: green;
+            font-family: 'Courier New', Courier, monospace;
+            font-size: 22px;
+        }
+
+        .header-style3 {
+            color: darkred;
+            font-family: Georgia, serif;
+            font-size: 26px;
+        }
+    </style>
+</head>
+<body>
+    <h2 class="header-style1">Заголовок стилю 1</h2>
+    <p>Текст під заголовком стилю 1</p>
+
+    <h2 class="header-style2">Заголовок стилю 2</h2>
+    <p>Текст під заголовком стилю 2</p>
+
+    <h2 class="header-style3">Заголовок стилю 3</h2>
+    <p>Текст під заголовком стилю 3</p>
+
+    <h2 class="header-style1">Заголовок стилю 1 повторно</h2>
+    <p>Текст під заголовком стилю 1 повторно</p>
+
+    <h2 class="header-style2">Заголовок стилю 2 повторно</h2>
+    <p>Текст під заголовком стилю 2 повторно</p>
+</body>
+</html>
