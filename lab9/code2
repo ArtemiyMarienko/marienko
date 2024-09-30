@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IvanennkoLab09-2</title>
+    <style>
+        .section-title {
+            color: navy;
+            font-weight: bold;
+            font-size: 20px;
+            text-transform: uppercase;
+        }
+
+        .text-body {
+            font-family: Verdana, sans-serif;
+            color: black;
+            font-size: 16px;
+            line-height: 1.6;
+        }
+
+        .footnote {
+            font-size: 12px;
+            color: gray;
+            font-style: italic;
+        }
+    </style>
+</head>
+<body>
+    <div class="section-title">Назва розділу 1</div>
+    <p class="text-body">Це текст першого розділу з використанням класу для основного тексту.</p>
+    <p class="footnote">Це виноска для розділу 1.</p>
+
+    <div class="section-title">Назва розділу 2</div>
+    <p class="text-body">Це текст другого розділу з використанням того ж класу для тексту.</p>
+    <p class="footnote">Це виноска для розділу 2.</p>
+
+    <div class="section-title">Назва розділу 3</div>
+    <p class="text-body">Це текст третього розділу.</p>
+    <p class="footnote">Це виноска для розділу 3.</p>
+</body>
+</html>
