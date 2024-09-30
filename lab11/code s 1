@@ -1,1 +1,16 @@
-
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IvanennkoLab10-1</title>
+    <link rel="stylesheet" href="styles.css"> <!-- Підключення стилів -->
+</head>
+<body>
+    <h1>Головна сторінка</h1>
+    <p>Ласкаво просимо на наш сайт. Тут ви знайдете багато цікавої інформації. Ми прагнемо зробити ваш досвід роботи на нашому сайті приємним і корисним.</p>
+    <img src="images/example.jpg" alt="Приклад зображення"> <!-- Зображення з папки 'images' -->
+    <p>Цей абзац має продовження, яке буде вирівняне по ширині і має червоний рядок. Увага до деталей робить сайт зручнішим для читачів.</p>
+    <a href="IvanennkoLab10-2.htm">Перейти на другу сторінку</a> <!-- Посилання на іншу сторінку -->
+</body>
+</html>
