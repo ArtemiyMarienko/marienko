@@ -1,11 +1,59 @@
-<!doctype html>
-  <html lang="uk">
-  <head>
-<style>
-body { 
-} 
-</style>
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IvanenkoLab04-3</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+        }
+
+        .row {
+            height: 100px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            overflow: hidden;
+            border-bottom: 2px solid #ccc;
+        }
+
+        /* Рух тексту і рисунків */
+        .row1 { background-color: #f88; animation: bounce 2s infinite; }
+        .row2 { background-color: #8f8; animation: run-up 5s linear infinite; }
+        .row3 { background-color: #88f; animation: run-down 5s linear infinite; }
+        .row4 { background-color: #f8f; animation: move 5s ease-in-out infinite; }
+        .row5 { background-color: #ff8; animation: move 7s ease-in-out infinite; }
+
+        /* Анімації */
+        @keyframes bounce {
+            0%, 100% { transform: translateY(0); }
+            50% { transform: translateY(-20px); }
+        }
+
+        @keyframes run-up {
+            0% { transform: translateY(100%); }
+            100% { transform: translateY(-100%); }
+        }
+
+        @keyframes run-down {
+            0% { transform: translateY(-100%); }
+            100% { transform: translateY(100%); }
+        }
+
+        @keyframes move {
+            0% { transform: translateY(100%); }
+            100% { transform: translateY(-100%); }
+        }
+    </style>
 </head>
 <body>
+    <div class="row row1">Текст коливається</div>
+    <div class="row row2"><img src="https://via.placeholder.com/100" alt="Рисунок"></div>
+    <div class="row row3"><img src="https://via.placeholder.com/100" alt="Рисунок"></div>
+    <div class="row row4">Текст із затримкою 1</div>
+    <div class="row row5">Текст із затримкою 2</div>
 </body>
 </html>
