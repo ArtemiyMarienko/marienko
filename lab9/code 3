@@ -5,11 +5,35 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>MarienkoLab09-3</title>
 <style>
-.menu
-body { 
-} 
+ .menu {
+            background-color: #f0f0f0;
+            padding: 10px;
+            margin: 10px 0;
+            list-style-type: none;
+        }
+
+        .menu li {
+            padding: 5px;
+            margin: 5px 0;
+            background-color: #d0d0d0;
+            font-family: Arial, sans-serif;
+        }
+
+        .small {
+            font-size: 12px;
+            color: gray;
+            font-style: italic;
+        }
 </style>
 </head>
 <body>
+<ul class="menu">
+<li>Головна<li>
+<li>Про нас</li>
+<li>Послуги</li>
+<li>Контакти</li>
+</ul>
+<p>Тут основна інформація про сторінку</p>
+<p class="small">Інформація була створена та опублікована студентом Марєнко. On air: MarienkoLab09-3.htm</p>
 </body>
 </html>
